@@ -1,6 +1,6 @@
 {
     "name": "email-sender-npm",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
         "prepare": "npm run build",
         "dev": "tsc -w"
     },
-    "keywords": ["node js emailSender", "nodemailer", "easy way to email send node js", "first email"],
+    "keywords": ["node js emailSender", "nodemailer", "easy way to email send node js", "first email", "nodemailer email sender", "node js email", "nodejs emailsend", "emailjs", "jayshankar"],
     "author": "jayshankar",
     "license": "ISC",
     "dependencies": {
