@@ -2,16 +2,16 @@
     "name": "email-sender-npm",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-    "types": "index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "start": "node dist/index.js",
         "build": "tsc",
         "prepare": "npm run build",
-        "dev": "nodemon src/index.ts"
+        "dev": "tsc -w"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["node js emailSender", "nodemailer", "easy way to email send node js", "first email"],
+    "author": "jayshankar",
     "license": "ISC",
     "dependencies": {
         "dotenv": "^16.4.7",
@@ -20,5 +20,9 @@
     "devDependencies": {
         "@types/nodemailer": "^6.4.17",
         "typescript": "^5.8.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jayshankar-Dey/email-sender-npm.git"
     }
 }
