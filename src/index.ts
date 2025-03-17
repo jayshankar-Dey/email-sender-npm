@@ -10,8 +10,8 @@ export class EmailSend {
          this.transporter = nodemailer.createTransport({
            service: "gmail",
            auth: {
-             user: process.env.EMAIL || "s64491310@gmail.com", 
-             pass: process.env.PASSWORD || "ctiz lncx xzbh qrxc", 
+             user: process.env.EMAIL, 
+             pass: process.env.PASSWORD, 
            },
          });
        }
