@@ -27,14 +27,15 @@ EMAIL**
  2. next step create a emailSend.js file
  
 ***code:***
-    emailService.sendEmail("from", "to", "your otp",    "otp is 7890", "write some html code")
+
+    Sender.sendEmail("from", "to", "your otp",    "otp is 7890", "write some html code")
 
 ***code:***
 
-    const { EmailSend } =  require('email-sender-npm')
+    const { Sender } =  require('email-sender-npm')
     require('dotenv').config()
-    const  emailService  =  new  EmailSend()
-    emailService.sendEmail("from@gmail.com", "to@gmail.com", "email send test", "nice", "<h1>hello world<h1/>")
+    
+    Sender.sendEmail("from@gmail.com", "to@gmail.com", "email send test", "nice", "<h1>hello world<h1/>")
 
  
 
